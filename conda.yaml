@@ -1,0 +1,18 @@
+name: autogluon
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.*
+  - pip=22.2.*
+  - pip:
+      - python-dotenv==0.21.*
+      - numpy==1.23.*
+      - pandas==1.5.*
+      - scikit-learn==1.1.*
+      - pyarrow==9.0.*
+      - ipykernel==6.16.*
+      - 'autogluon.tabular'
+      - scikit-learn
+      - tqdm
+      - pyyaml
+      - easydict
