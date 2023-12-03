@@ -44,3 +44,9 @@ To run the bag-of-word model, use the following script:
 ```bash
 python run_bow.py
 ```
+
+## Testing alternative stacking models using AutoGluon
+
+The `conda.yaml` file is the environment set-up necessary to run this section.
+
+Once run_pretrained.py has been run and the .pt torch files have been produced from the ClinicalBert model, the `test_model-autogluon.ipynb` can be run to test alternative stacking models against the GNNs. The code will output the AUROC for the top models generated from the auto ML package. 
